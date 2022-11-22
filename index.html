@@ -14,8 +14,11 @@ background: radial-gradient(circle, rgba(63,94,251,1) 0%, rgba(158,82,179,1) 48%
 
 <script>
     function auth(){
-        var pass = prompt("Enter password to access site");
-        if (pass != "deeznuts"){
+        var pass = prompt("Enter email to access site");
+        if (/@students\.woodlandschools\.org/.test(pass)){
+            alert("welcome to site");
+        }
+        else{
             window.close();
         }
     }
