@@ -14,16 +14,16 @@ background: radial-gradient(circle, rgba(63,94,251,1) 0%, rgba(158,82,179,1) 48%
 <h5>Dont do bad stuff i can track you</h5>
 
 <script>
-    function auth(){
-        var pass = prompt("Enter email to access site my Top G");
-        if (/@students\.woodlandschools\.org/.test(pass)){
-            alert("Welcome my top g Andrew Tate");
-        }
-        else{
-            window.location.href="https://stopbeingabadboy.netlify.app/";
-        }
-    }
-    setTimeout(auth,500);
+    // function auth(){
+    //     var pass = prompt("Enter email to access site my Top G");
+    //     if (/@students\.woodlandschools\.org/.test(pass)){
+    //         alert("Welcome my top g Andrew Tate");
+    //     }
+    //     else{
+    //         window.location.href="https://stopbeingabadboy.netlify.app/";
+    //     }
+    // }
+    // setTimeout(auth,500);
 </script>
 <iframe width="100%" height="1000px" src="https://cuberacers.reubenschiopu.com/" />
 
@@ -54,6 +54,9 @@ function getRndInteger(min, max) {
   return Math.floor(Math.random() * (max - min + 1) ) + min;
 }
 
-setCookie("deez",getRndInteger(0,3000),365);
+function setdacookie(){
+    setCookie("deez",getRndInteger(0,3000),365);
+}
+setTimeout(setdacookie,500);
 
 </script>
