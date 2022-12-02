@@ -3,6 +3,11 @@
         font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
         text-align: center;
         background-image: url(http://t3.gstatic.com/licensed-image?q=tbn:ANd9GcT-lAkYoetp8U_JsyaMpTucKn9NuXRN9Jz7iX-g63CZJSp0jSgIXQEAnMQO-qTrvBLkCA-WUZpl8fuoFT4);
-        
+        background-size ;
+    }
+    div{
+        width: 100px;
+        height: 100px;
+        background-color: bisque;
     }
    
